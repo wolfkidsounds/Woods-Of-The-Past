@@ -1,0 +1,50 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = false
+  backgroundimage = resources/background.png
+  autoscale_baseheight = 813
+  renderorder = background
+  autoscale_basewidth = 1024
+  randommode = false
+  scale = 2
+  randomonlyfirsttime = false
+}
+
+customization {
+  visible = false
+  textcolor = #ffffff
+  action = editforgememoryinfo
+}
+
+customization {
+  visible = false
+  action = editlogo
+}
+
+customization {
+  orientation = mid-centered
+  x = -52
+  textcolor = #000000
+  action = editforgestatustext
+  y = 139
+}
+
+customization {
+  action = editprogressbar
+  y = -26
+  barcolor = #000000
+}
+
+customization {
+  orientation = mid-centered
+  x = 0
+  width = 372
+  action = addwebtexture
+  actionid = 845192bb-9d59-4773-a697-1d4b949a32b51639224816486
+  y = -27
+  url = https://raw.githubusercontent.com/wolfkidsounds/Woods-of-the-past/main/resources/WoodsOfThePast_Logo.png
+  height = 122
+}
+
