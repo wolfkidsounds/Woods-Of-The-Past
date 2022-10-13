@@ -1,0 +1,10 @@
+crash-reports/
+logs/
+downloads/
+profileimage/
+options.txt
+minecraftinstance.json
+usercache.json
+usernamecache.json
+realms_persistence.json
+saves/
